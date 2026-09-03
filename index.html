@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Портфолио инженера-схемотехника и PCB designer: разработка схем, многослойных печатных плат и встраиваемых устройств." />
+  <title>Артём — инженер-схемотехник / PCB Designer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">ARTEM / ELECTRONICS</a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#about">Обо мне</a>
+      <a href="#skills">Навыки</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">ENGINEERING PORTFOLIO</p>
+        <h1>Инженер-схемотехник<br><span>& PCB Designer</span></h1>
+        <p class="lead">Проектирование электронных устройств: принципиальные схемы, подбор современной компонентной базы, многослойные PCB, интерфейсы и отладка собранных плат.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Смотреть проекты</a>
+          <a class="button secondary" href="assets/resume.pdf" target="_blank" rel="noopener">Резюме PDF</a>
+        </div>
+        <p class="microcopy">Замените <code>assets/resume.pdf</code> своим резюме или удалите кнопку.</p>
+      </div>
+      <div class="hero-card" aria-label="Краткая специализация">
+        <div class="hero-card-top">FOCUS</div>
+        <ul>
+          <li><span>01</span> Circuit design</li>
+          <li><span>02</span> PCB layout</li>
+          <li><span>03</span> Embedded hardware</li>
+          <li><span>04</span> Bring-up & debug</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section split-section">
+      <div>
+        <p class="section-kicker">ОБО МНЕ</p>
+        <h2>От схемы до работающего прототипа</h2>
+      </div>
+      <div class="body-copy">
+        <p>Разрабатываю электронные устройства в Altium Designer: от структурной идеи и выбора компонентов до принципиальной схемы, разводки PCB, сборки и последовательной аппаратной отладки.</p>
+        <p>Особое внимание уделяю целостности питания и сигналов, возвратным токам, дифференциальным парам, силовым цепям, тепловому режиму и технологичности платы.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="section-kicker">НАВЫКИ</p>
+        <h2>Что умею</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>Схемотехника</h3>
+          <p>Подбор компонентов, DC/DC, LDO, измерительные цепи, защита, аналоговые и цифровые узлы.</p>
+        </article>
+        <article class="skill-card">
+          <h3>PCB Layout</h3>
+          <p>Многослойные платы, силовые цепи, GND/PWR planes, возвратные токи, via stitching, тепловой дизайн.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Интерфейсы</h3>
+          <p>USB Type-C / PD, UART, SPI, I²C, CAN, Ethernet, дифференциальные пары и согласование трасс.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Отладка</h3>
+          <p>Мультиметр, осциллограф, лабораторный БП, поиск КЗ, контроль шин питания и поузловой bring-up.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading projects-heading">
+        <div>
+          <p class="section-kicker">ПРОЕКТЫ</p>
+          <h2>Избранные работы</h2>
+        </div>
+        <p class="projects-note">Лучше 3–6 сильных проектов, чем десятки фотографий без пояснений.</p>
+      </div>
+
+      <article class="project feature-project">
+        <div class="project-media">
+          <img src="assets/charger-placeholder.svg" alt="Замените изображение фотографией или 3D-рендером зарядного устройства" />
+          <div class="image-hint">Заменить: assets/charger-placeholder.svg</div>
+        </div>
+        <div class="project-copy">
+          <div class="project-number">01</div>
+          <p class="project-type">EMBEDDED POWER ELECTRONICS</p>
+          <h3>Многорежимное зарядное устройство</h3>
+          <p>Разработка устройства с управляемым buck-boost преобразователем, USB Type-C PD PPS, микроконтроллером STM32, мониторингом тока/напряжения и пользовательским интерфейсом.</p>
+          <div class="tags" aria-label="Технологии проекта">
+            <span>STM32G474</span><span>USB PD PPS</span><span>LTC3780</span><span>Altium Designer</span><span>8-layer PCB</span>
+          </div>
+          <dl class="project-facts">
+            <div><dt>Моя роль</dt><dd>Схемотехника, PCB layout, подбор компонентов, сборка и отладка</dd></div>
+            <div><dt>Интерфейсы</dt><dd>USB-C PD, SPI, I²C, UART</dd></div>
+            <div><dt>Особенности</dt><dd>Силовая часть, измерительные цепи, цифровое управление, многослойная плата</dd></div>
+          </dl>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project small-project">
+          <img src="assets/project-placeholder.svg" alt="Место для фотографии второго проекта" />
+          <div class="small-project-copy">
+            <div class="project-number">02</div>
+            <h3>Название проекта</h3>
+            <p>2–3 предложения: задача, что именно разработали и какой был ваш вклад.</p>
+            <div class="tags"><span>Altium</span><span>PCB</span><span>Interface</span></div>
+          </div>
+        </article>
+        <article class="project small-project">
+          <img src="assets/project-placeholder.svg" alt="Место для фотографии третьего проекта" />
+          <div class="small-project-copy">
+            <div class="project-number">03</div>
+            <h3>Название проекта</h3>
+            <p>Покажите фото готовой платы, 3D PCB и один характерный фрагмент разводки.</p>
+            <div class="tags"><span>Hardware</span><span>PCB</span><span>Debug</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gallery-section">
+      <div class="section-heading">
+        <p class="section-kicker">ГАЛЕРЕЯ</p>
+        <h2>Детали разработки</h2>
+      </div>
+      <div class="gallery">
+        <figure><img src="assets/gallery-placeholder.svg" alt="Место для фотографии собранной PCB"><figcaption>Собранная плата</figcaption></figure>
+        <figure><img src="assets/gallery-placeholder.svg" alt="Место для 3D-рендера PCB"><figcaption>3D PCB</figcaption></figure>
+        <figure><img src="assets/gallery-placeholder.svg" alt="Место для фрагмента трассировки"><figcaption>PCB layout</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <p class="section-kicker">КОНТАКТЫ</p>
+      <h2>Готов обсудить инженерные задачи</h2>
+      <p>Замените ссылки ниже своими контактами перед публикацией.</p>
+      <div class="contact-links">
+        <a href="mailto:your@email.com">your@email.com</a>
+        <a href="https://github.com/USERNAME" target="_blank" rel="noopener">github.com/USERNAME</a>
+        <a href="https://t.me/USERNAME" target="_blank" rel="noopener">Telegram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Artem / Electronics Portfolio</span>
+    <a href="#top">Наверх ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
